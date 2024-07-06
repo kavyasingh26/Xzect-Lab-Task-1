@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0A0F24;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('background.jpg')no-repeat center center fixed;
+    background-position: right;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .button.primary {
+    background: #007BFF;
+  }
+  
+  .button.primary:hover {
+    background: #0056b3;
+  }
+  
+  .button.secondary {
+    background: #373F51;
+  }
+  
+  .button.secondary:hover {
+    background: #2a2e3b;
+  }
+  
+  .main-content {
+    max-width: 600px;
+    z-index: 1;
+    margin-top: 100px; /* Adjusted margin for better alignment */
+  }
+  
+  .tagline {
+    margin-bottom: 20px;
+  }
+  
+  .tagline-link {
+    background: #1C2230;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  h1 span {
+    font-style: italic;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
